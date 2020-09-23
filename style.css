@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+body {
+    background: #282a36;
+    font-family:'Roboto', sans-serif;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0,0,0,0.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 32px;
+    color: white;
+    font-style: italic;
+}
+
+header div a:hover {
+    color: springgreen;
+    transition: 200ms;
+}
+
+.discord:hover {
+    color: #8257e6;
+    
+    
+}
+
+.contact:hover {
+    color: #007acc;
+    
+}
+
+
+h1 {
+    padding: 32px 0 128px;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+
+p {
+    display: block;
+    max-width: 100%;
+    width: 768px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+}
+
+.link {
+    
+    color: black;
+    background: #c8c8c8;
+    width: 768px;
+    height: 32px;
+    border-radius: 2px;
+    border: 1px solid #333;
+    text-align: left;
+    padding: 16px 0px 0px 8px;
+    
+}
+
+div p {
+    padding: 64px 0px 64px;
+}
+
+div p a {
+    text-decoration: none;
+    color: wheat;
+}
+
+div p a:hover {
+    color: tomato;
+    transition: 200ms;
+
+}
